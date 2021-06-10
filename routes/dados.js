@@ -3,7 +3,7 @@ const router = express.Router();
 
 const dados = require('../database/database');
 
-router.get('/dadosCovid', (req, res, next) => {
+router.get('/dados', (req, res, next) => {
     return res.render("index", { dados })
    
 });

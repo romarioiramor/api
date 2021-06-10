@@ -1,94 +1,41 @@
 module.exports = {
-    datas:[
-        '19/03/2021',
-        '20/03/2021',
+    cliente: [
+        {
+            id: 1,
+            nome: 'mateus',
+            cpf: '0000000000',
+            dataNascimento: '10/10/2000',
+            sexo: 'masculino',
+        }
     ],
-    cidades:[
-        'sp',
-        'rj',
-        'df'
+    produtos: [
+        {
+            id: 1,
+            nome: 'produto1',
+            preco: '500,00'
+        },
+        {
+            id: 2,
+            nome: 'produto2',
+            preco: '600,00'
+        },{
+            id: 3,
+            nome: 'produto3',
+            preco: '700,00'
+        },{
+            id: 4,
+            nome: 'produto4',
+            preco: '800,00'
+        }
     ],
-    dados:{
-        sp:[{
-            data: '21/03/2021',
-            casosConfirmados: 1000,
-            casosDia: 300,
-            obitosDia: 200,
-            obitosTotal: 2000
-        },{
-            data: '20/03/2021',
-            casosConfirmados: 700,
-            casosDia: 50,
-            obitosDia: 100,
-            obitosTotal: 900
-        },{
-            data: '18/03/2021',
-            casosConfirmados: 600,
-            casosDia: 100,
-            obitosDia: 80,
-            obitosTotal: 880
-        },
+    cartaoCredito: [
         {
-            data: '17/03/2021',
-            casosConfirmados: 1100,
-            casosDia: 350,
-            obitosDia: 150,
-            obitosTotal: 2000
-        }],
-        df:[{
-            data: '21/03/2021',
-            casosConfirmados: 1000,
-            casosDia: 300,
-            obitosDia: 200,
-            obitosTotal: 2000
-        },{
-            data: '20/03/2021',
-            casosConfirmados: 700,
-            casosDia: 50,
-            obitosDia: 100,
-            obitosTotal: 900
-        },{
-            data: '19/03/2021',
-            casosConfirmados: 600,
-            casosDia: 100,
-            obitosDia: 80,
-            obitosTotal: 880
-        },
-        {
-            data: '18/03/2021',
-            casosConfirmados: 1100,
-            casosDia: 350,
-            obitosDia: 150,
-            obitosTotal: 2000
-        }],
-        rj:[{
-            data: '21/03/2021',
-            casosConfirmados: 1000,
-            casosDia: 300,
-            obitosDia: 200,
-            obitosTotal: 2000
-        },
-        {
-            data: '20/03/2021',
-            casosConfirmados: 1100,
-            casosDia: 350,
-            obitosDia: 150,
-            obitosTotal: 2000
-        },
-        {
-            data: '19/03/2021',
-            casosConfirmados: 900,
-            casosDia: 150,
-            obitosDia: 50,
-            obitosTotal: 1000
-        },
-        {
-            data: '18/03/2021',
-            casosConfirmados: 800,
-            casosDia: 50,
-            obitosDia: 150,
-            obitosTotal: 800
-        }]
-    }
+            id: 1,
+            nome: 'mateus',
+            numero: '014787400000052445',
+            vencumento: '10/10/2000',
+            cvv: '000'
+        }
+    ]
 }
 

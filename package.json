@@ -1,15 +1,14 @@
 {
-  "name": "covid-api",
+  "name": "api-boa-compra",
   "version": "1.0.0",
-  "description": "API para projeto covid",
+  "description": "API para projeto boa compra",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Romario Medeiros",
+  "author": "Lucas Mateus",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1",
-    "nunjucks": "^3.2.3"
+    "express": "^4.17.1"
   }
 }
